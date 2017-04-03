@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('Gotham Bold.otf');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('Gotham Medium.otf');
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('Gotham Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Thin;
+    font-weight: bold;
+    src: url('Gotham Condensed Light.otf');
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Gotham Black", serif;
+}
+
+p {
+    font-family: "Gotham Medium", serif;
+}
+
+tr,td {
+    font-family: "Gotham Medium", serif;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+    background-color: #008F6B; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    background-color: #468f00; /* Green */
+}
+
+input[type='reset']:hover {
+    background-color: #468f00; /* Green */
+}
+
+input[type='button']:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text], input[type=password], input[type=email] {
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=password]:focus {
+    border: 3px solid #555;
+}
+
+input[type=email]:focus {
+    border: 3px solid #555;
+}
