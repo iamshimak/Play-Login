@@ -25,7 +25,7 @@ public class UserController {
      */
     public Result login() {
         final Map<String, String[]> values = request().body().asFormUrlEncoded();
-        String username = values.get("username")[0];
+        String username = values.get("login_username")[0];
         String password = values.get("password")[0];
 
         User user = hash.get(username);
